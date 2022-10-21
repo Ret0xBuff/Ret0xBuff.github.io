@@ -328,6 +328,7 @@ function inputChange() {
             $outlineList.hide();
             $('#title-list-nav').hide()
             $('#local-search-result').show();
+			//console.log(" 开始全局搜索");
             searchAll(val.substr(3))
         } else {
             $('#title-list-nav').show();

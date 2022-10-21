@@ -20,6 +20,7 @@
 var searchAll;
 var searchFunc = function (path, search_id, content_id) {
   'use strict';
+  // console.log("有调用这个搜索的js");
   $.ajax({
     url: path,
     dataType: 'xml',
